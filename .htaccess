@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^page-([^-]*)-field-([^-]*)-sortin-([^-]*)$ /buycd/list_cd.php?page=$1&field=$2&sortin=$3 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*) $1.php [L]

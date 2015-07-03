@@ -1,0 +1,53 @@
+/*Referenced from http://www.textfixer.com/tutorials/css-tables.php*/
+
+table.results {
+    font-family: verdana, arial, sans-serif;
+    font-size: 13.5px;
+    color: #333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+    width: 1000px;
+}
+
+table.results th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+}
+table.results td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}
+#tick :nth-child(1) {
+    width: 15px;
+}
+
+
+select {
+    font-size: 16px;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+input {
+    width: 200px;
+    margin-bottom: 5px;
+    line-height: 18px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+}
+.total{
+    text-align: right;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    color:#FF0000;
+}
+#basket{
+    width: 100px;
+}

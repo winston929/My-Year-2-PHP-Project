@@ -1,0 +1,94 @@
+/*http://b2cloud.com.au/how-to-guides/css-tips-and-tricks-for-styling-forms*/
+
+textarea {
+    font-size: 14px;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    resize: none;
+}
+
+form {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+select {
+    font-size: 14px;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+p {
+    font: italic bold 12px/30px Georgia, serif;
+}
+table {
+    border: 0px;
+}
+td {
+    padding: 7.5px;
+}
+
+.error {
+    color: #FF0000;
+    font-style: italic;
+    font-weight: bold;
+}
+.majorData {
+    font-weight: bold;
+    font-style: italic;
+}
+label {
+    width: 60px;
+    float: left;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: bold;
+}
+input[type=radio] {
+    width: 15px;
+}
+input:focus {
+    border: 1px solid #000000;
+}
+input {
+    width: 200px;
+    margin-bottom: 5px;
+    line-height: 18px;
+    padding: 2px 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+}
+/*General rules*/
+#form3 input {
+    line-height: 18px;
+}
+/*Text, email & tel input fields*/
+#form3 input[type=text], #form3 input[type=email], #form3 input[type=tel], textarea {
+    width: 300px;
+    margin-bottom: 8px;
+    padding: 2px 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+}
+/*Just the tel field*/
+input[type=tel] {
+    width: 150px;
+}
+/*The Submit Button */
+input[type=button] {
+    width: 200px;
+    margin-bottom: 5px;
+    line-height: 18px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+}
+input[type=text]:focus, #form3 input[type=email]:focus, #form3 input[type=tel]:focus, textarea:focus {
+    border: 1px solid #000;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+}
+textarea {
+    width: 225px;
+}
+
